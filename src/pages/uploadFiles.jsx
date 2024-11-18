@@ -2,7 +2,6 @@ import { useState } from "react";
 import Papa from "papaparse";
 import * as XLSX from "xlsx";
 import { useData } from "../components/context/dataContext";
-import DataAnalyst from "./DataAnalyst";
 import Swal from "sweetalert2";
 
 const UploadFiles = () => {

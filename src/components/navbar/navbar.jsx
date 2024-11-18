@@ -17,9 +17,9 @@ const Navbar = () => {
                 <h1>DataAnalyst</h1>
             </div>
             <div className="hidden md:flex space-x-8 py-3 ">
-                <Link to="/upload_files" className="hover:text-blue-300">Upload Files</Link>
-                <Link to="/data_analysis" className="hover:text-blue-300">Data Analysis</Link>
-                <Link to="/graphics" className="hover:text-blue-300">Graphics</Link> 
+                <Link to="/Parcial-Mineria/upload_files" className="hover:text-blue-300">Upload Files</Link>
+                <Link to="/Parcial-Mineria/data_analysis" className="hover:text-blue-300">Data Analysis</Link>
+                <Link to="/Parcial-Mineria/graphics" className="hover:text-blue-300">Graphics</Link> 
             </div>
             <div className="md:hidden flex items-center">
                 <button onClick={toggleMenu} className="text-2xl focus:outline-none">
@@ -30,10 +30,9 @@ const Navbar = () => {
             {/* Menu desplegable en pantallas pequeñas */}
             {isOpen && (
                 <div className="md:hidden flex flex-col items-center bg-blue-800 w-full mt-4 space-y-4 py-4">
-                    <Link to="/upload_files" className="hover:text-blue-300" onClick={toggleMenu}>Upload Files</Link>
-                    <Link to="/data_analysis" className="hover:text-blue-300" onClick={toggleMenu}>Data Analysis</Link>
-                    <Link to="/graphics" className="hover:text-blue-300" onClick={toggleMenu}>Graphics</Link>
-                    <a href="#contact" className="hover:text-blue-300" onClick={toggleMenu}>Contact</a>
+                    <Link to="/Parcial-Mineria/upload_files" className="hover:text-blue-300" onClick={toggleMenu}>Upload Files</Link>
+                    <Link to="/Parcial-Mineria/data_analysis" className="hover:text-blue-300" onClick={toggleMenu}>Data Analysis</Link>
+                    <Link to="/Parcial-Mineria/graphics" className="hover:text-blue-300" onClick={toggleMenu}>Graphics</Link>
                 </div>
             )}
         </nav>
